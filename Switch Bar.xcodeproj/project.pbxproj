@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41103AF30C0D98362A52CD14 /* Pods_Switch_Bar_Switch_BarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83D402D732459194EE4C4CE9 /* Pods_Switch_Bar_Switch_BarUITests.framework */; };
+		7C41C8F33109BC87CCE3AFCB /* Pods_Switch_BarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AD5E033AEE5B8A34D697CF /* Pods_Switch_BarTests.framework */; };
+		CB7C9A8237ED1E1DF500B4A0 /* Pods_Switch_Bar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9974A022BB79C22968D869D0 /* Pods_Switch_Bar.framework */; };
 		D60BF6CC262C7B0900C73166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BF6CB262C7B0900C73166 /* AppDelegate.swift */; };
 		D60BF6CE262C7B0900C73166 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BF6CD262C7B0900C73166 /* SceneDelegate.swift */; };
 		D60BF6D0262C7B0900C73166 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BF6CF262C7B0900C73166 /* ViewController.swift */; };
@@ -15,6 +18,7 @@
 		D60BF6D8262C7B0A00C73166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60BF6D6262C7B0A00C73166 /* LaunchScreen.storyboard */; };
 		D60BF6E3262C7B0A00C73166 /* Switch_BarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BF6E2262C7B0A00C73166 /* Switch_BarTests.swift */; };
 		D60BF6EE262C7B0A00C73166 /* Switch_BarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BF6ED262C7B0A00C73166 /* Switch_BarUITests.swift */; };
+		D60BF709262C80DC00C73166 /* CustomSwitchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60BF708262C80DC00C73166 /* CustomSwitchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00AD5E033AEE5B8A34D697CF /* Pods_Switch_BarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Switch_BarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D966A1BC85BA0D0A0C6B50C /* Pods-Switch Bar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Switch Bar.debug.xcconfig"; path = "Target Support Files/Pods-Switch Bar/Pods-Switch Bar.debug.xcconfig"; sourceTree = "<group>"; };
+		3C6107EB09424C174A21E0B3 /* Pods-Switch Bar-Switch BarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Switch Bar-Switch BarUITests.release.xcconfig"; path = "Target Support Files/Pods-Switch Bar-Switch BarUITests/Pods-Switch Bar-Switch BarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		54B6FD09D6960277B5378571 /* Pods-Switch BarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Switch BarTests.debug.xcconfig"; path = "Target Support Files/Pods-Switch BarTests/Pods-Switch BarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DBADC565F4FD08CC0FE570A /* Pods-Switch BarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Switch BarTests.release.xcconfig"; path = "Target Support Files/Pods-Switch BarTests/Pods-Switch BarTests.release.xcconfig"; sourceTree = "<group>"; };
+		83D402D732459194EE4C4CE9 /* Pods_Switch_Bar_Switch_BarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Switch_Bar_Switch_BarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841B39EAE9D44C480955DC4D /* Pods-Switch Bar-Switch BarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Switch Bar-Switch BarUITests.debug.xcconfig"; path = "Target Support Files/Pods-Switch Bar-Switch BarUITests/Pods-Switch Bar-Switch BarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9974A022BB79C22968D869D0 /* Pods_Switch_Bar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Switch_Bar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60BF6C8262C7B0900C73166 /* Switch Bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Switch Bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60BF6CB262C7B0900C73166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D60BF6CD262C7B0900C73166 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		D60BF6E9262C7B0A00C73166 /* Switch BarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Switch BarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60BF6ED262C7B0A00C73166 /* Switch_BarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch_BarUITests.swift; sourceTree = "<group>"; };
 		D60BF6EF262C7B0A00C73166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60BF708262C80DC00C73166 /* CustomSwitchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitchBar.swift; sourceTree = "<group>"; };
+		EAD8D21F2012150F86965337 /* Pods-Switch Bar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Switch Bar.release.xcconfig"; path = "Target Support Files/Pods-Switch Bar/Pods-Switch Bar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7C9A8237ED1E1DF500B4A0 /* Pods_Switch_Bar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C41C8F33109BC87CCE3AFCB /* Pods_Switch_BarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41103AF30C0D98362A52CD14 /* Pods_Switch_Bar_Switch_BarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22DEE3858BB3C2EB3B5D5F89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D966A1BC85BA0D0A0C6B50C /* Pods-Switch Bar.debug.xcconfig */,
+				EAD8D21F2012150F86965337 /* Pods-Switch Bar.release.xcconfig */,
+				841B39EAE9D44C480955DC4D /* Pods-Switch Bar-Switch BarUITests.debug.xcconfig */,
+				3C6107EB09424C174A21E0B3 /* Pods-Switch Bar-Switch BarUITests.release.xcconfig */,
+				54B6FD09D6960277B5378571 /* Pods-Switch BarTests.debug.xcconfig */,
+				6DBADC565F4FD08CC0FE570A /* Pods-Switch BarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8CB9CC73492E109B35BE57B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9974A022BB79C22968D869D0 /* Pods_Switch_Bar.framework */,
+				83D402D732459194EE4C4CE9 /* Pods_Switch_Bar_Switch_BarUITests.framework */,
+				00AD5E033AEE5B8A34D697CF /* Pods_Switch_BarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D60BF6BF262C7B0900C73166 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				D60BF6E1262C7B0A00C73166 /* Switch BarTests */,
 				D60BF6EC262C7B0A00C73166 /* Switch BarUITests */,
 				D60BF6C9262C7B0900C73166 /* Products */,
+				22DEE3858BB3C2EB3B5D5F89 /* Pods */,
+				8CB9CC73492E109B35BE57B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +144,7 @@
 				D60BF6CB262C7B0900C73166 /* AppDelegate.swift */,
 				D60BF6CD262C7B0900C73166 /* SceneDelegate.swift */,
 				D60BF6CF262C7B0900C73166 /* ViewController.swift */,
+				D60BF708262C80DC00C73166 /* CustomSwitchBar.swift */,
 				D60BF6D1262C7B0900C73166 /* Main.storyboard */,
 				D60BF6D4262C7B0A00C73166 /* Assets.xcassets */,
 				D60BF6D6262C7B0A00C73166 /* LaunchScreen.storyboard */,
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D60BF6F2262C7B0A00C73166 /* Build configuration list for PBXNativeTarget "Switch Bar" */;
 			buildPhases = (
+				6DF97FFDA07C0B643FA5E665 /* [CP] Check Pods Manifest.lock */,
 				D60BF6C4262C7B0900C73166 /* Sources */,
 				D60BF6C5262C7B0900C73166 /* Frameworks */,
 				D60BF6C6262C7B0900C73166 /* Resources */,
+				8B509E623B8D6525A8C8E99C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D60BF6F5262C7B0A00C73166 /* Build configuration list for PBXNativeTarget "Switch BarTests" */;
 			buildPhases = (
+				28339642AF214E06DE2D08EF /* [CP] Check Pods Manifest.lock */,
 				D60BF6DA262C7B0A00C73166 /* Sources */,
 				D60BF6DB262C7B0A00C73166 /* Frameworks */,
 				D60BF6DC262C7B0A00C73166 /* Resources */,
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D60BF6F8262C7B0A00C73166 /* Build configuration list for PBXNativeTarget "Switch BarUITests" */;
 			buildPhases = (
+				9D648D9B3CABFC3CC3EEE049 /* [CP] Check Pods Manifest.lock */,
 				D60BF6E5262C7B0A00C73166 /* Sources */,
 				D60BF6E6262C7B0A00C73166 /* Frameworks */,
 				D60BF6E7262C7B0A00C73166 /* Resources */,
+				C22FF0CC9BCBA732D18E0613 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28339642AF214E06DE2D08EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Switch BarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DF97FFDA07C0B643FA5E665 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Switch Bar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B509E623B8D6525A8C8E99C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Switch Bar/Pods-Switch Bar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Switch Bar/Pods-Switch Bar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Switch Bar/Pods-Switch Bar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D648D9B3CABFC3CC3EEE049 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Switch Bar-Switch BarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C22FF0CC9BCBA732D18E0613 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Switch Bar-Switch BarUITests/Pods-Switch Bar-Switch BarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Switch Bar-Switch BarUITests/Pods-Switch Bar-Switch BarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Switch Bar-Switch BarUITests/Pods-Switch Bar-Switch BarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D60BF6C4262C7B0900C73166 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +411,7 @@
 			files = (
 				D60BF6D0262C7B0900C73166 /* ViewController.swift in Sources */,
 				D60BF6CC262C7B0900C73166 /* AppDelegate.swift in Sources */,
+				D60BF709262C80DC00C73166 /* CustomSwitchBar.swift in Sources */,
 				D60BF6CE262C7B0900C73166 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +585,7 @@
 		};
 		D60BF6F3262C7B0A00C73166 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D966A1BC85BA0D0A0C6B50C /* Pods-Switch Bar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +604,7 @@
 		};
 		D60BF6F4262C7B0A00C73166 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAD8D21F2012150F86965337 /* Pods-Switch Bar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +623,7 @@
 		};
 		D60BF6F6262C7B0A00C73166 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B6FD09D6960277B5378571 /* Pods-Switch BarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +645,7 @@
 		};
 		D60BF6F7262C7B0A00C73166 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBADC565F4FD08CC0FE570A /* Pods-Switch BarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +667,7 @@
 		};
 		D60BF6F9262C7B0A00C73166 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841B39EAE9D44C480955DC4D /* Pods-Switch Bar-Switch BarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +687,7 @@
 		};
 		D60BF6FA262C7B0A00C73166 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C6107EB09424C174A21E0B3 /* Pods-Switch Bar-Switch BarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
